@@ -1,0 +1,188 @@
+/* 🎨 Estilos creativos para Deletrealo */
+
+/* Fuente global y colores */
+:root {
+    --fondo: #0f172a;
+    --fondo-card: #1e293b;
+    --texto: #f1f5f9;
+    --acento: #38bdf8;   /* azul cielo */
+    --acento2: #f472b6; /* rosa */
+    --peligro: #ef4444;
+    --exito: #22c55e;
+    --radio: 14px;
+    --sombra: 0 6px 20px rgba(0,0,0,0.4);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e1b4b);
+    color: var(--texto);
+    line-height: 1.6;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    width: 100%;
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: 20px;
+  }
+  
+  header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    color: var(--acento);
+    text-shadow: 0 0 10px rgba(56,189,248,0.7);
+  }
+  
+  /* Sidebar creativa */
+  .sidebar {
+    background: var(--fondo-card);
+    border-radius: var(--radio);
+    padding: 20px;
+    box-shadow: var(--sombra);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .sidebar h2 {
+    font-size: 1.2rem;
+    color: var(--acento2);
+    margin-bottom: 10px;
+  }
+  
+  .sidebar a {
+    text-decoration: none;
+    color: var(--texto);
+    padding: 10px;
+    border-radius: var(--radio);
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    background: var(--acento);
+    color: #0f172a;
+    transform: translateX(5px);
+  }
+  
+  /* Sección principal */
+  .main {
+    background: var(--fondo-card);
+    border-radius: var(--radio);
+    padding: 25px;
+    box-shadow: var(--sombra);
+  }
+  
+  /* Tarjetas */
+  .card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: var(--radio);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(56,189,248,0.3);
+  }
+  
+  /* Formularios */
+  label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: var(--acento);
+  }
+  
+  input, select, textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: none;
+    border-radius: var(--radio);
+    outline: none;
+    background: #0f172a;
+    color: var(--texto);
+    margin-bottom: 12px;
+    transition: 0.3s;
+  }
+  
+  input:focus, textarea:focus {
+    box-shadow: 0 0 8px var(--acento);
+  }
+  
+  /* Botones */
+  .btn {
+    display: inline-block;
+    padding: 10px 16px;
+    border: none;
+    border-radius: var(--radio);
+    cursor: pointer;
+    font-weight: 600;
+    color: #0f172a;
+    background: var(--acento);
+    transition: transform 0.2s, background 0.3s;
+  }
+  
+  .btn:hover {
+    background: var(--acento2);
+    transform: scale(1.05);
+  }
+  
+  .btn.danger {
+    background: var(--peligro);
+    color: #fff;
+  }
+  
+  .btn.success {
+    background: var(--exito);
+    color: #fff;
+  }
+  
+  /* Tablas */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  .table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  
+  .table th {
+    background: rgba(255,255,255,0.08);
+    color: var(--acento);
+  }
+  
+  /* Responsive */
+  @media (max-width: 900px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+    .sidebar {
+      flex-direction: row;
+      overflow-x: auto;
+    }
+  }
+  

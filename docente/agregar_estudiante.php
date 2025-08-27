@@ -95,6 +95,6 @@ $conn->close();
         <input type="submit" value="Guardar Estudiante">
     </form>
 
-    <p><a href="../pagina_administrador.php?logout=1">Cerrar sesión</a></p>
+    <p><a href="../pagina_docentes.php?logout=1">Cerrar sesión</a></p>
 </body>
 </html>

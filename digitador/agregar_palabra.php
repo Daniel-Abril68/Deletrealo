@@ -117,7 +117,7 @@ $conn->close();
     </form>
 
 
-<a href="../pagina_administrador.php?logout=1">Cerrar sesión</a>
+<a href="../pagina_digitador.php?logout=1">Cerrar sesión</a>
     
 </body>
 </html>
