@@ -40,7 +40,7 @@ if (isset($_SESSION['tipo_usuario'])) {
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
     <link rel="stylesheet" href="assets/vendors/animate/animate.css">
     <link rel="stylesheet" href="assets/css/foodhut.css">
-    <style>.header{background:url("img/logo.png") center/cover no-repeat;height:100vh}</style>
+    <style>.header{background:url("img/index.png") center/cover no-repeat;height:100vh}</style>
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
@@ -65,9 +65,10 @@ if (isset($_SESSION['tipo_usuario'])) {
             <h1 class="display-4 font-weight-bold my-3">Bienvenido al Sistema de Deletreo</h1>
             <h2 class="mb-4">Seleccione su tipo de usuario</h2>
             <div class="d-flex justify-content-center flex-wrap">
-                <a href="colegio.php" class="btn btn-lg btn-primary m-2">colegio guanenta</a>
-                <a href="concurso.php" class="btn btn-lg btn-primary m-2">informacion concurso</a>
-                <a href="home_inicio_de_sesion.php" class="btn btn-lg btn-primary m-2">inicio sesion</a>
+                <a href="loguear/loguear_estudiante.php" class="btn btn-lg btn-primary m-2">Estudiante</a>
+                <a href="loguear/loguear_docente.php" class="btn btn-lg btn-primary m-2">Docente</a>
+                <a href="loguear/loguear_administrador.php" class="btn btn-lg btn-primary m-2">Administrador</a>
+                <a href="loguear/loguear_digitador.php" class="btn btn-lg btn-primary m-2">Digitador</a>
             </div>
         </div>
     </header>
