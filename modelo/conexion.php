@@ -6,10 +6,10 @@ $password = "";
 $dbname = "deletrealo";
 
 // --- CONEXIÓN REMOTA ---
-/*$servername = "sql109.infinityfree.com";
-$username = "if0_38862569";
-$password = "CP263jUEsm"; 
-$dbname = "if0_38862569_deletrealo";*/
+$servername = "sql309.infinityfree.com";
+$username = "if0_39794556";
+$password = "daniel17082008"; 
+$dbname = "if0_39794556_deletrealo";
 
 // Función para crear una conexión a la base de datos
 function conectar_db() {
