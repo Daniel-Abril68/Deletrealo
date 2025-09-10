@@ -1,15 +1,15 @@
 <?php
 // Configuración de conexión a la base de datos
-/*$servername = "localhost";
+$servername = "localhost";
 $username = "root"; 
 $password = ""; 
-$dbname = "deletrealo";*/
+$dbname = "deletrealo";
 
 // --- CONEXIÓN REMOTA ---
-$servername = "sql109.infinityfree.com";
+/*$servername = "sql109.infinityfree.com";
 $username = "if0_38862569";
 $password = "CP263jUEsm"; 
-$dbname = "if0_38862569_deletrealo";
+$dbname = "if0_38862569_deletrealo";*/
 
 // Función para crear una conexión a la base de datos
 function conectar_db() {

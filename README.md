@@ -1,6 +1,6 @@
 # Proyecto Deletrealo - Sitio Web
 
-Este repositorio contiene la primera versión del sitio web del proyecto **Deletrealo**, desarrollado en HTML y CSS.  
+Este repositorio contiene la segunda versión del sitio web del proyecto **Deletrealo**, desarrollado en PHP, HTML y CSS.  
 El sitio es **responsivo** (se adapta a diferentes tamaños de pantalla) y cuenta con secciones para los distintos usuarios del sistema.
 
 ---

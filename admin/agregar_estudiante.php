@@ -51,10 +51,13 @@ $conn->close();
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="icon" type="image/png" href="../img/logo.png">
+<link rel="stylesheet" href="../style.css">
     <title>Registro de Estudiantes - Deletrealo</title>
     <meta charset="UTF-8">
 </head>
 <body>
+<center>
     <h1>Panel de Registro de Estudiantes</h1>
 
     <?php if (!empty($mensaje)) echo "<p>$mensaje</p>"; ?>
@@ -96,5 +99,6 @@ $conn->close();
     </form>
 
     <p><a href="../pagina_administrador.php?logout=1">Cerrar sesión</a></p>
+    </center>
 </body>
 </html>

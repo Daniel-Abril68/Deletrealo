@@ -12,11 +12,14 @@ if (!isset($_SESSION['tipo_usuario']) || $_SESSION['tipo_usuario'] != 'administr
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<link rel="icon" type="image/png" href="img/logo.png">
+<link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panel Administrador - Deletrealo</title>
 </head>
 <body>
+<center>
     <h1>Panel de Administrador</h1>
     
     <h2>Gestión de Usuarios</h2>
@@ -40,5 +43,6 @@ if (!isset($_SESSION['tipo_usuario']) || $_SESSION['tipo_usuario'] != 'administr
     </ul>
     
     <p><a href="index.php?logout=1">Cerrar sesión</a></p>
+    <center>
 </body>
 </html>

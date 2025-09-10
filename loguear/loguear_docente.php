@@ -44,9 +44,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="icon" type="image/png" href="../img/logo.png">
+<link rel="stylesheet" href="../style.css">
     <title>Login - Docente</title>
 </head>
 <body>
+<center>
     <h2>Sistema de Deletreo</h2>
     <h3>Ingreso como Docente</h3>
     
@@ -70,5 +73,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <a href="../index.php"><button type="button">Cancelar</button></a>
         </p>
     </form>
+    <center>
 </body>
 </html>

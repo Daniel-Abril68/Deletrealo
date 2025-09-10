@@ -42,10 +42,13 @@ $conn->close();
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="icon" type="image/png" href="../img/logo.png">
+<link rel="stylesheet" href="../style.css">
     <title>Sistema de Deletreo - Administrador</title>
     <meta charset="UTF-8">
 </head>
 <body>
+    <center>
     <h1>Sistema de Deletreo - Panel de digitador</h1>
 
     <?php if (isset($mensaje)) echo "<p>$mensaje</p>"; ?>
@@ -70,5 +73,6 @@ $conn->close();
     </form>
 
     <a href="../pagina_docentes.php?logout=1">Cerrar sesión</a>
+    </center>
 </body>
 </html>
